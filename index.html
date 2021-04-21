@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <title>E-commerce Project</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
+     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>A-Z Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+   
+   </head>
+  <body>
+   <header>
+    
+      <div class = "container">
+        <!-- navbar -->
+        <nav class = "navbar">
+          <a  class = "navbar-brand">A-Z Store</a>
+          <button type = "button" class = "navbar-toggler">
+            <i class = "fas fa-bars"></i>
+          </button>
+          <div class = "navbar-collapse">
+            <ul>
+              <li><a href = "#">Home</a></li>
+              <li><a href="message.jsp">Logout</a></li>
+        
+            </ul>
+          </div>
+
+          <div class = "cart">
+            <button type = "button" id = "cart-btn">
+              <i class = "fas fa-shopping-cart"></i>
+              <span id = "cart-count-info"></span>
+            </button>
+            
+            <div class = "cart-container">
+              <div class = "cart-list">
+  
+                
+
+              <div class = "cart-total">
+                <h3>Total: </h3>
+                <span id = "cart-total-value"></span>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- end of navbar -->
+        <!-- banner -->
+        <div class = "banner">
+          <div class = "banner-content">
+            <h1>Electronic Gadgets</h1>
+            <h2>Lightening Deals</h2>
+             <h3>Oneplus 9R</h3>
+            <p class = "text"> Sanpdragon 870 CPU<br>A day's power in just 15 minutes<br>Starting at just 39999</p>
+            <h3>HP Pavillion</h3>
+            <p class="text">Gaming Laptop<br>9th Gen Intel Core i5 Processor 15.6-inch Laptop<br> Windows 10/4GB NVIDIA<br>Shadow Black<br> Starting at just 60000</p>
+          
+          </div>
+
+        </div>
+        <!-- end of banner  -->
+
+        <!-- banner -->
+
+      </div>
+    </header>
+    <!-- end of header -->
+   
+ <!-- Product section -->
+ <section id="products" class="products py-5">
+  <div class="container">
+    <!-- section title -->
+    <div class="row">
+      <div class="col-10 mx-auto col-sm-6 text-center">
+        <h1 class="text-capitalize product-title">Featured Products</h1>
+      </div>
+    </div>
+    <!-- end section title -->
+     <!-- Product items -->
+    <div class="row product-items" id="product-items">
+      <!-- single items -->
+      <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+             <div class = " product-item">
+            <div class = "product-img">
+            <img src="" class="card-img-top product-img" alt="">
+            <button type = "button" class = "add-to-cart-btn">
+                <i class = "fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+     <div class="card-body">
+            <div class="card-text d-flex justify-content-between text-capitalize"> 
+               <div class = "product-content">
+              <h3 class = "product-name">Oneplus 9R</h3>
+              <span class = "product-category">Mobile</span>
+              <p class = "product-price"> 39999.00 </p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of single item -->
+      <!-- single items -->
+      <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+         <div class = "product-item">
+            <div class = "product-img">
+            <img src="C:\Users\Azeez Bhasha Khan\Desktop\images\v1.jpg" class="card-img-top product-img" alt="">
+             <button type = "button" class = "add-to-cart-btn">
+                <i class = "fas fa-shopping-cart"></i>Add To Cart
+              </button>
+           </div>
+          <div class="card-body">
+            <div class="card-text d-flex justify-content-between text-capitalize">
+             <div class = "product-content">
+              <h3 class = "product-name">Vivo</h3>
+              <span class = "product-category">Mobile</span>
+              <p class = "product-price"> 15000.00 </p>
+            </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of single item -->
+      <!-- single items -->
+      <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+         <div class = "product-item">
+            <div class = "product-img">
+            <img src="C:\Users\Azeez Bhasha Khan\Desktop\images\oppo.png" class="card-img-top product-img" alt="">
+            <button type = "button" class = "add-to-cart-btn">
+                <i class = "fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+          <div class="card-body">
+            <div class="card-text d-flex justify-content-between text-capitalize">
+             <div class = "product-content">
+              <h3 class = "product-name">Oppo F17</h3>
+              <span class = "product-category">Mobile</span>
+              <p class = "product-price"> 17000 </p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of single item -->
+      <!-- single items -->
+      <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+        <div class = "product-item">
+            <div class = "product-img">
+            <img src="C:\Users\Azeez Bhasha Khan\Desktop\images\as1.jpg" class="card-img-top product-img" alt="">
+            <button type = "button" class = "add-to-cart-btn">
+                <i class = "fas fa-shopping-cart"></i>Add To Cart
+              </button>
+          </div>
+          <div class="card-body">
+            <div class="card-text d-flex justify-content-between text-capitalize">
+             <div class = "product-content">
+              <h3 class = "product-name">Asus Vivobook</h3>
+              <span class = "product-category">Laptop</span>
+              <p class = "product-price">40000.00</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of single item -->
+      <!-- single items -->
+      <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+        <div class = "product-item">
+            <div class = "product-img">
+            <img src="C:\Users\Azeez Bhasha Khan\Desktop\images\lap1.jpg" class="card-img-top product-img" alt="">
+            <button type = "button" class = "add-to-cart-btn">
+                <i class = "fas fa-shopping-cart"></i>Add To Cart
+              </button>
+           </div>
+          <div class="card-body">
+            <div class="card-text d-flex justify-content-between text-capitalize">
+              <div class = "product-content">
+              <h3 class = "product-name">HP Pavillion</h3>
+              <span class = "product-category">Laptop</span>
+              <p class = "product-price"> 60000.00 </p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of single item -->
+      <!-- single items -->
+      <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+        <div class = "product-item">
+            <div class = "product-img">
+            <img src="C:\Users\Azeez Bhasha Khan\Desktop\images\d1.jpg" class="card-img-top product-img" alt="">
+            <button type = "button" class = "add-to-cart-btn">
+                <i class = "fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+          <div class="card-body">
+            <div class="card-text d-flex justify-content-between text-capitalize">
+              <div class = "product-content">
+              <h3 class = "product-name">Dell G3</h3>
+              <span class = "product-category">Laptop</span>
+              <p class = "product-price"> 75000.00 </p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of single item -->
+      <!-- single items -->
+      <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+        <div class = "product-item">
+            <div class = "product-img">
+            <img src="C:\Users\Azeez Bhasha Khan\Desktop\images\w3.jpg" class="card-img-top product-img" alt="">
+            <button type = "button" class = "add-to-cart-btn">
+                <i class = "fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+          <div class="card-body">
+            <div class="card-text d-flex justify-content-between text-capitalize">
+            <div class = "product-content">
+              <h3 class = "product-name">Fossil</h3>
+              <span class = "product-category">Watch</span>
+              <p class = "product-price"> 8000.00 </p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of single item -->
+      <!-- single items -->
+      <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+         <div class = "product-item">
+            <div class = "product-img">
+            <img src="C:\Users\Azeez Bhasha Khan\Desktop\images\fs1.jpg" class="card-img-top product-img" alt="">
+            <button type = "button" class = "add-to-cart-btn">
+                <i class = "fas fa-shopping-cart"></i>Add To Cart
+              </button>
+        </div>
+          <div class="card-body">
+            <div class="card-text d-flex justify-content-between text-capitalize">
+              <div class = "product-content">
+              <h3 class = "product-name">Fastrack</h3>
+              <span class = "product-category">Watch</span>
+              <p class = "product-price"> 2000.00 </p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of single item -->
+      <!-- single items -->
+      <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
+         <div class = "product-item">
+            <div class = "product-img">
+            <img src="C:\Users\Azeez Bhasha Khan\Desktop\images\g1.jpg" class="card-img-top product-img" alt="">
+            <button type = "button" class = "add-to-cart-btn">
+                <i class = "fas fa-shopping-cart"></i>Add To Cart
+              </button>
+          </div>
+          <div class="card-body">
+            <div class="card-text d-flex justify-content-between text-capitalize">
+              <div class = "product-content">
+              <h3 class = "product-name">G-Shock</h3>
+              <span class = "product-category">Watch</span>
+              <p class = "product-price"> 8000.00 </p>
+            </div>
+           </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of single item -->
+     
+    <!-- end of store items -->
+  </div>
+</section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
